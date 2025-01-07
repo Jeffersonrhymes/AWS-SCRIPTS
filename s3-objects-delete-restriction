@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1736249004015",
+    "Statement": [
+        {
+            "Sid": "Stmt1736249002743",
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:DeleteObject",
+            "Resource": "your-bucket-arn/*"
+        }
+    ]
+}
