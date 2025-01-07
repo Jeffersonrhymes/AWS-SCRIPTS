@@ -5,7 +5,7 @@
             "Sid": "DenyS3DeleteBucket",
             "Effect": "Deny",
             "Action": "s3:DeleteBucket",
-            "Resource": "arn:aws:s3:::scp-test-bucket"
+            "Resource": "your-bucket-arn"
         }
     ]
 }
